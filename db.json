@@ -1,0 +1,66 @@
+{
+"customers": {
+   "customers": [ 
+    {
+      "category": { "value": "customer" , "state": "inactive" },
+      "action": "Onhold",
+      "state": "Status",
+      "priority": "priority",
+      "firstname": "Voornaam",
+      "lastname": "Achternaam",
+      "zipCode": "2611 WW",
+      "housenumber": 24,
+      "mail": "test@live.nl",
+      "supplier": "leverancier",
+      "updateDate": "25-09-2021",
+      "signDate": "25-09-2020"
+    },
+    {
+      "category": { "value": "prospect" , "state": "hot" },
+      "action": "Onhold",
+      "state": "Status",
+      "priority": "active",
+      "firstname": "test voornaam",
+      "lastname": "test achternaam",
+      "zipCode": "2612 WW",
+      "housenumber": 34,
+      "mail": "testenn@live.nl",
+      "supplier": "leverancier-2",
+      "updateDate": "25-10-2019",
+      "signDate": "28-08-2020"
+    },
+    {
+      "category": { "value": "prospect" , "state": "hot" },
+      "action": "Onhold",
+      "state": "Status",
+      "priority": "active",
+      "firstname": "tester",
+      "lastname": "tesa",
+      "zipCode": "2612 WW",
+      "housenumber": 44,
+      "mail": "live@live.nl",
+      "supplier": "leverancier-3",
+      "updateDate": "25-10-2018",
+      "signDate": "25-10-2020"
+    }
+   ],
+   "filters": 
+    {
+      "state": [
+        {"name":"new"},
+        {"name":"snooze"},
+        {"name":"actionRequired"},
+        {"name":"inprogress"},
+        {"name":"done"},
+        {"name":"rejectedBySupplier"},
+        {"name":"cancelledByCustomer"}
+      ],
+      "category": [
+        {"name":"Customer Active"},
+        {"name":"Customer Inactive"},
+        {"name":"Prospect"},
+        {"name":"Prospect HOT"}
+      ]
+    }
+  }
+}
